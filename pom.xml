@@ -9,8 +9,9 @@
   <name>Powerful</name>
   
   <modules>
+  		<module>Power-Utils</module>
 		<module>Power-IO</module>
-		<module>Power-Socket</module>
+		<module>Power-Network</module>
 		<module>Power-Character</module>
 		<module>Power-Thread</module>
 		<module>Power-Date</module>
