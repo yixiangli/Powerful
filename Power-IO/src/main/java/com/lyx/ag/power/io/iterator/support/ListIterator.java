@@ -10,15 +10,14 @@ package com.lyx.ag.power.io.iterator.support;
 import java.util.Iterator;
 import java.util.List;
 
+import com.lyx.ag.power.exception.PowerException;
 import com.lyx.ag.power.io.iterator.AbstractIterator;
+import com.lyx.ag.power.utils.ObjectUtils;
 
 /**
  * @param <T>
  * @developer liyixiang
  * @Info
- * * * @company leEco
- * * * @email <liyixiang@le.com>
- * * * @Team smartConnected
  * @date 2017年2月8日
  * @since JDK 1.7
  * @Function
@@ -30,34 +29,22 @@ public class ListIterator<T> extends AbstractIterator<T> {
 	
 	public ListIterator(List<T> list) {
 		// TODO Auto-generated constructor stub
+		if(ObjectUtils.isNull4Obj(list.iterator())){
+			throw new PowerException("param is null");
+		}
 		this.iterator = list.iterator();
-		
 	}
 	
 	@Override
 	public boolean hasNext() {
 		// TODO Auto-generated method stub
-		try {
-			return iterator.hasNext();
-		} catch (NullPointerException e){
-			
-		} catch (Exception e){
-			
-		}
-		return false;
+		return iterator.hasNext();
 	}
 
 	@Override
 	public T next() {
 		// TODO Auto-generated method stub
-		try {
-			return iterator.next();
-		} catch (NullPointerException e){
-			
-		} catch (Exception e){
-			
-		}
-		return null;
+		return iterator.next();
 	}
 
 	@Override

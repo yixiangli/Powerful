@@ -18,7 +18,7 @@ import java.util.Iterator;
  * * * @Team smartConnected
  * @date 2017年2月8日
  * @since JDK 1.7
- * @Function
+ * @Function 迭代器模式
  * @Reason
  */
 public abstract class AbstractIterator<E> implements Iterator<E> {

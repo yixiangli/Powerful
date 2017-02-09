@@ -12,7 +12,7 @@ package com.lyx.ag.power.exception;
  * @Info
  * @date 2017年2月8日
  * @since JDK 1.7
- * @Function
+ * @Function	异常处理类
  * @Reason
  */
 public class PowerException extends RuntimeException {
@@ -25,5 +25,18 @@ public class PowerException extends RuntimeException {
 
 	public PowerException() {
 		// TODO Auto-generated constructor stub
+		super();
+	}
+	
+	public PowerException(String msg){
+		super(msg);
+	}
+	
+	public PowerException(Throwable cause){
+		super(cause);
+	}
+	
+	public PowerException(String msg,Throwable cause){
+		super(msg,cause);
 	}
 }
