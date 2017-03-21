@@ -11,10 +11,8 @@ import org.springframework.jms.core.JmsTemplate;
  * @use
  * 		基础消息发送者
  */
-public class SimpleMessageSender implements IMessageSender {
+public class SimpleMessageSender extends AbstractJmsTemplateSender {
 
-	//jms模版
-	private final JmsTemplate jmsTemplate;
 	//消息发送目的地
 	private final Destination destination;
 
