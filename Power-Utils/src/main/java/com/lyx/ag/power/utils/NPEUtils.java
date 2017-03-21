@@ -12,10 +12,10 @@ package com.lyx.ag.power.utils;
  * @Info
  * @date 2017年2月8日
  * @since JDK 1.7
- * @Function 对象工具类
+ * @Function NPE工具类
  * @Reason
  */
-public class ObjectUtils {
+public class NPEUtils {
 
 	/**
 	 * 

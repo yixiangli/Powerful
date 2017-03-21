@@ -12,7 +12,7 @@ import java.util.List;
 
 import com.lyx.ag.power.exception.PowerException;
 import com.lyx.ag.power.io.iterator.AbstractIterator;
-import com.lyx.ag.power.utils.ObjectUtils;
+import com.lyx.ag.power.utils.NPEUtils;
 
 /**
  * @param <T>
@@ -29,7 +29,7 @@ public class ListIterator<T> extends AbstractIterator<T> {
 	
 	public ListIterator(List<T> list) {
 		// TODO Auto-generated constructor stub
-		if(ObjectUtils.isNull4Obj(list.iterator())){
+		if(NPEUtils.isNull4Obj(list.iterator())){
 			throw new PowerException("param is null");
 		}
 		this.iterator = list.iterator();

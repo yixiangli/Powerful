@@ -12,7 +12,7 @@ import java.io.IOException;
 
 import com.lyx.ag.power.exception.PowerException;
 import com.lyx.ag.power.io.iterator.AbstractIterator;
-import com.lyx.ag.power.utils.ObjectUtils;
+import com.lyx.ag.power.utils.NPEUtils;
 
 /**
  * @developer liyixiang
@@ -32,7 +32,7 @@ public class BufferedReaderIterator extends AbstractIterator<String> {
 	
 	public BufferedReaderIterator(BufferedReader bfr) {
 		// TODO Auto-generated constructor stub
-		if(ObjectUtils.isNull4Obj(bfr)){
+		if(NPEUtils.isNull4Obj(bfr)){
 			throw new PowerException();
 		}	
 		this.reader = bfr;

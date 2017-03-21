@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:jms="http://www.springframework.org/schema/jms"
+        xsi:schemaLocation="
+            http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/jms http://www.springframework.org/schema/jms/spring-jms.xsd">
+            
+            
+	<bean id="cacheProducerConnFactory" class="org.springframework.jms.connection.CachingConnectionFactory">
+    	<constructor-arg name="targetConnectionFactory" ref="jmsProducerConnectionFactory"></constructor-arg>
+    	<property name="sessionCacheSize" value="330"></property>
+	</bean>
+            
+    <!-- 配置连接工厂 -->
+    <bean id="jmsProducerConnectionFactory" class="org.apache.qpid.client.AMQConnectionFactory">
+        <constructor-arg index="0" value="${jms.conn.url}"/> 
+    </bean>
+    
+      <!-- 配置template,传入连接工厂 -->
+    <bean id="jmsTemplate" class="org.springframework.jms.core.JmsTemplate">
+        <property name="connectionFactory" ref="cacheProducerConnFactory"/>
+        <property name="messageConverter" ref="simpleMessageConverter"/>
+    </bean>
+    
+    <!-- demo 
+    1.配置Destination  ${lepush.exchange.client.add}为申请的队列名称 配置在properties中
+    <bean id="mongoClientAddDestination" class="org.apache.qpid.client.AMQAnyDestination">
+        <constructor-arg index="0"  value="${lepush.exchange.client.add}"/>
+    </bean>
+    
+    <bean id="mongoUserBindDestination" class="org.apache.qpid.client.AMQAnyDestination">
+        <constructor-arg index="0"  value="${lepush.exchange.user.bind}"/>
+    </bean>
+    
+    <bean id="mongoUpdateDestination" class="org.apache.qpid.client.AMQAnyDestination">
+        <constructor-arg index="0"  value="${lepush.exchange.client.update}"/>
+    </bean>
+    
+    <bean id="mongoSender" class="com.letv.lepush.mq.sender.mongo.MongoSender">
+    	<constructor-arg name="keyDestinations">
+    		<map>
+    			<entry key-ref="USER_BIND" value-ref="mongoUserBindDestination"/>
+    			<entry key-ref="UPDATE" value-ref="mongoUpdateDestination"/>
+    			<entry key-ref="ADD" value-ref="mongoClientAddDestination"/>
+    		</map>
+    	</constructor-arg>
+    	<constructor-arg name="jmsTemplate" ref="jmsTemplate"></constructor-arg>
+    </bean>
+    
+     <bean id="ADD" class="org.springframework.beans.factory.config.FieldRetrievingFactoryBean">    
+        <property name="staticField" value="com.letv.lepush.mongodb.message.MongoOperator.ADD" />    
+    </bean>  
+    <bean id="UPDATE" class="org.springframework.beans.factory.config.FieldRetrievingFactoryBean">    
+        <property name="staticField" value="com.letv.lepush.mongodb.message.MongoOperator.UPDATE" />    
+    </bean>  
+    <bean id="USER_BIND" class="org.springframework.beans.factory.config.FieldRetrievingFactoryBean">    
+        <property name="staticField" value="com.letv.lepush.mongodb.message.MongoOperator.USER_BIND" />    
+    </bean>  
+    -->
+</beans>
