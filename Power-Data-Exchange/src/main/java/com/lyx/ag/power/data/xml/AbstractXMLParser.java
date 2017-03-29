@@ -4,10 +4,7 @@ import java.io.File;
 import java.io.InputStream;
 import java.net.URL;
 
-import org.dom4j.io.SAXReader;
-
-import com.lyx.ag.power.data.IConverter;
-import com.lyx.ag.power.data.IResourceReader;
+import com.lyx.ag.power.data.IXMLParser;
 
 /**
  * 
@@ -16,10 +13,8 @@ import com.lyx.ag.power.data.IResourceReader;
  * @use
  * 		抽象xml处理者
  */
-public abstract class AbstractXMLHandler<T> implements IConverter<T>,IResourceReader<T> {
+public abstract class AbstractXMLParser<T> implements IXMLParser<T> {
 
-	protected static SAXReader saxReader;
-	
 	@Override
 	public T getResource(URL url) {
 		// TODO Auto-generated method stub

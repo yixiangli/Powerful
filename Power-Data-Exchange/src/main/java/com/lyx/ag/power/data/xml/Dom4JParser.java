@@ -8,6 +8,8 @@ import org.dom4j.io.SAXReader;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.lyx.ag.power.data.annotation.Parser;
+
 
 /**
  * 
@@ -16,14 +18,12 @@ import org.slf4j.LoggerFactory;
  * @use
  * 		dom4j实现
  */
-public class Dom4JHandler extends AbstractXMLHandler<Document> {
+@Parser(name="dom4j")
+public class Dom4JParser extends AbstractXMLParser<Document>{
 
-	private Logger logger = LoggerFactory.getLogger(Dom4JHandler.class);
-	
-	public Dom4JHandler() {
-		// TODO Auto-generated constructor stub
-		saxReader = new SAXReader();
-	}
+	private Logger logger = LoggerFactory.getLogger(Dom4JParser.class);
+
+	private static SAXReader saxReader = new SAXReader();
 
 	@Override
 	public Document getResource(URL url) {
@@ -44,9 +44,5 @@ public class Dom4JHandler extends AbstractXMLHandler<Document> {
 		//doc.getRootElement();
 		return false;
 	}
-
-	
-
-	
 
 }

@@ -9,6 +9,7 @@
   </parent>
   
   <artifactId>Power-Data-Exchange</artifactId>
+  <version>0.1</version>
   
   <name>Power-Data-Exchange</name>
   <url>http://maven.apache.org</url>
