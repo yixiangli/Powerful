@@ -1,10 +1,9 @@
 package com.lyx.ag.power.lb.strategy;
 
 import java.util.List;
-import java.util.concurrent.atomic.AtomicInteger;
+import java.util.concurrent.atomic.AtomicLong;
 
 import com.lyx.ag.power.lb.AbstractLoadBalance;
-import com.lyx.ag.power.lb.LoadBalance;
 import com.lyx.ag.power.lb.annotation.LBS;
 
 /**
@@ -16,28 +15,13 @@ import com.lyx.ag.power.lb.annotation.LBS;
 @LBS(name="RoundRobin")
 public class RoundRobinLoadBalance extends AbstractLoadBalance{
 
-	private static AtomicInteger index = new AtomicInteger();
-	
-	//start -------- 单例 --------
-	private RoundRobinLoadBalance(){}
-	
-	private static class Builder {
-		private static final RoundRobinLoadBalance roundRobinLBS = new RoundRobinLoadBalance();
-	
-		static LoadBalance build(){
-			return roundRobinLBS;
-		}
-	}
-	
-	public static LoadBalance getInstance(){
-		return Builder.build();
-	}
-	//end -------- 单例 --------
+	private static AtomicLong atomicLong = new AtomicLong(0);
 	
 	@Override
 	public <T> T doSelect(List<T> list) {
 		// TODO Auto-generated method stub
-		return list.get(index.getAndIncrement());
+		long index = atomicLong.getAndIncrement();
+		return list.get((int)(index%list.size()));
 	}
 
 }
