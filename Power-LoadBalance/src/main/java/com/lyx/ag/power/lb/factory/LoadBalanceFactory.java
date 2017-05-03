@@ -9,6 +9,7 @@ import java.util.List;
 
 import com.lyx.ag.power.lb.LoadBalance;
 import com.lyx.ag.power.lb.annotation.LBS;
+import com.lyx.ag.power.lb.strategy.RandomLoadBalance;
 
 /**
  * 
@@ -102,7 +103,7 @@ public class LoadBalanceFactory {
 			if(lbs.name().equals(name)){
 				//匹配成功返回一个当前策略的实例
                 try {
-					return clazz.newInstance();
+                	return clazz.newInstance();
 				} catch (Exception e) {
 					// TODO Auto-generated catch block
 					throw new RuntimeException("策略获得失败");

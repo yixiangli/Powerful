@@ -16,6 +16,26 @@ import com.lyx.ag.power.lb.annotation.LBS;
 @LBS(name="Random")
 public class RandomLoadBalance extends AbstractLoadBalance{
 
+/*
+//start singleTon	
+	private RandomLoadBalance(){}
+	
+	private static class Build {
+		
+		private static final RandomLoadBalance rd = new RandomLoadBalance();
+		
+		static LoadBalance build(){
+			return rd;
+		}
+	}
+	
+	public static LoadBalance getInstance(){
+		return Build.build();
+	}
+//end singleTon	
+ * 
+ */	
+	
 	private static final ThreadLocalRandom random = ThreadLocalRandom.current();
 	
 	@Override

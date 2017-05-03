@@ -15,6 +15,26 @@ import com.lyx.ag.power.lb.annotation.LBS;
 @LBS(name="RoundRobin")
 public class RoundRobinLoadBalance extends AbstractLoadBalance{
 
+/*
+//start singleTon	
+	private RoundRobinLoadBalance(){}
+	
+	private static class Build {
+		
+		private static final RoundRobinLoadBalance rr = new RoundRobinLoadBalance();
+		
+		static LoadBalance build(){
+			return rr;
+		}
+	}
+	
+	public static LoadBalance getInstance(){
+		return Build.build();
+	}
+//end singleTon	
+ * 
+ */
+	
 	private static AtomicLong atomicLong = new AtomicLong(0);
 	
 	@Override

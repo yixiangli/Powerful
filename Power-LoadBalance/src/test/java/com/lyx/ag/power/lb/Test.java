@@ -7,10 +7,19 @@ import com.lyx.ag.power.lb.factory.LoadBalanceFactory;
 
 public class Test {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
+		
+		//Thread.sleep(10000);
+		
 		Test test = new Test();
-		for (int i=0;i<1000;i++){
+		for (int i=0;i<100000;i++){
+			test.testTwo();
+		}
+		
+		Thread.sleep(10000);
+		
+		for (int i=0;i<100000;i++){
 			test.testTwo();
 		}
 	}
