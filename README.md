@@ -28,7 +28,7 @@ Powerful
 ## Usage
 
 ## License
-	基于 Apache License 2.0 发布。有关详细信息，请参阅 [LICENSE](https://github.com/yixiangli/breeze/blob/master/LICENSE)。
+	基于 Apache License 2.0 发布。有关详细信息，请参阅 [LICENSE](https://github.com/yixiangli/Powerful/blob/master/LICENSE)。
 
 ## History
 发布日期 | 版本 | 备注
