@@ -22,6 +22,8 @@
 		<module>Power-Data-Exchange</module>
 		<!-- 负载均衡组件 -->
 		<module>Power-LoadBalance</module>
+		<!-- 算法集合 -->
+		<module>Power-Algorithm</module>
   </modules>
   
   <url>http://maven.apache.org</url>
