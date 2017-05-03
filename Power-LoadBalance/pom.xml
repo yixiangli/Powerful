@@ -9,7 +9,7 @@
   </parent>
   <groupId>com.lyx.ag</groupId>
   <artifactId>Power-LoadBalance</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>1.0</version>
   <name>Power-LoadBalance</name>
   <url>http://maven.apache.org</url>
   <properties>
