@@ -9,7 +9,6 @@ import java.util.List;
 
 import com.lyx.ag.power.lb.LoadBalance;
 import com.lyx.ag.power.lb.annotation.LBS;
-import com.lyx.ag.power.lb.strategy.RandomLoadBalance;
 
 /**
  * 

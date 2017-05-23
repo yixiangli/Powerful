@@ -24,6 +24,8 @@
 		<module>Power-LoadBalance</module>
 		<!-- 算法集合 -->
 		<module>Power-Algorithm</module>
+		<!-- 数据结构集合 -->
+		<module>Power-Data-Structure</module>
   </modules>
   
   <url>http://maven.apache.org</url>
