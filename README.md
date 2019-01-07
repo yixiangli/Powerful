@@ -43,15 +43,15 @@ Powerful
 
 
 ## Manifest
-	|- doc
-	|  |- 
-	|- src
-	|  |- main
-	|     |- java
-	|        |- com
-	|          |- le
-	|             |- ag
-	|                |- 
+	|- Power-Algorithm
+	|- Power-Cache
+	|- Power-Data-Exchange
+	|- Power-Data-Structure
+	|- Power-Dependency
+	|- Power-IO
+	|- Power-LoadBalance
+	|- Power-MQ
+	|- Power-Utils
 	|- .gitignore
 	|- LICENSE
 	|- README.md
