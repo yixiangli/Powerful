@@ -4,3 +4,7 @@
 .project
 /target/*
 .DS_Store
+
+#IDEA
+**/.idea/
+**/*.iml
