@@ -10,7 +10,6 @@
         <module name="Power-Cache" />
         <module name="Power-Data-Exchange" />
         <module name="Power-Data-Structure" />
-        <module name="Power-Desgin-Pattern-Essence" />
         <module name="Power-IO" />
         <module name="Power-LoadBalance" />
         <module name="Power-MQ" />
@@ -18,17 +17,17 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="Power-Algorithm" target="1.8" />
-      <module name="Power-Cache" target="1.8" />
-      <module name="Power-Data-Exchange" target="1.8" />
-      <module name="Power-Data-Structure" target="1.8" />
-      <module name="Power-Dependency" target="1.8" />
+      <module name="Power-Algorithm" target="1.5" />
+      <module name="Power-Cache" target="1.5" />
+      <module name="Power-Data-Exchange" target="1.5" />
+      <module name="Power-Data-Structure" target="1.5" />
+      <module name="Power-Dependency" target="1.5" />
       <module name="Power-Desgin-Pattern-Essence" target="1.8" />
-      <module name="Power-IO" target="1.8" />
-      <module name="Power-LoadBalance" target="1.8" />
-      <module name="Power-MQ" target="1.8" />
-      <module name="Power-Utils" target="1.8" />
-      <module name="Powerful" target="1.8" />
+      <module name="Power-IO" target="1.5" />
+      <module name="Power-LoadBalance" target="1.5" />
+      <module name="Power-MQ" target="1.6" />
+      <module name="Power-Utils" target="1.5" />
+      <module name="Powerful" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

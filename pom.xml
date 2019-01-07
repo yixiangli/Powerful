@@ -25,8 +25,6 @@
 		<module>Power-Algorithm</module>
 		<!-- 数据结构集合 -->
 		<module>Power-Data-Structure</module>
-        <!-- 设计模式 -->
-        <module>Power-Desgin-Pattern-Essence</module>
         <!-- Cache -->
         <module>Power-Cache</module>
   </modules>

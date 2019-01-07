@@ -7,7 +7,6 @@
       <module fileurl="file://$PROJECT_DIR$/Power-Data-Exchange/Power-Data-Exchange.iml" filepath="$PROJECT_DIR$/Power-Data-Exchange/Power-Data-Exchange.iml" />
       <module fileurl="file://$PROJECT_DIR$/Power-Data-Structure/Power-Data-Structure.iml" filepath="$PROJECT_DIR$/Power-Data-Structure/Power-Data-Structure.iml" />
       <module fileurl="file://$PROJECT_DIR$/Power-Dependency/Power-Dependency.iml" filepath="$PROJECT_DIR$/Power-Dependency/Power-Dependency.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Power-Desgin-Pattern-Essence/Power-Desgin-Pattern-Essence.iml" filepath="$PROJECT_DIR$/Power-Desgin-Pattern-Essence/Power-Desgin-Pattern-Essence.iml" />
       <module fileurl="file://$PROJECT_DIR$/Power-IO/Power-IO.iml" filepath="$PROJECT_DIR$/Power-IO/Power-IO.iml" />
       <module fileurl="file://$PROJECT_DIR$/Power-LoadBalance/Power-LoadBalance.iml" filepath="$PROJECT_DIR$/Power-LoadBalance/Power-LoadBalance.iml" />
       <module fileurl="file://$PROJECT_DIR$/Power-MQ/Power-MQ.iml" filepath="$PROJECT_DIR$/Power-MQ/Power-MQ.iml" />
