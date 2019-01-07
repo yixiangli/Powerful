@@ -11,16 +11,12 @@ Powerful
 
 ## Features
 ### 基本功能
-0. **Power-Data-Exchange**数据交换组件
-1. **Power-IO**I/O 文件交互组件
+1. **Power-Data-Exchange**  数据交换组件
+2. **Power-IO**I/O 文件交互组件
     - Excel
     - PDF
-2. 基础网络组件（如Netty,Mina等封装）支持同步，异步
-3. 字符串操作组件
-4. 线程组件
-5. 日期组件
-6. **Power-LoadBalance**负载均衡组件
-7. **Power-Cache**缓存操作组件
+3. **Power-LoadBalance**    负载均衡组件
+4. **Power-Cache**  缓存操作组件
     - 缓存回收算法
 	    - 堆缓存
 	        - Guava Cache
@@ -30,9 +26,9 @@ Powerful
 	        - MapDB
 	    - 分布式缓存
 	        - Redis
-8. **Power-MQ**消息中间件组件
-9. **Power-Algorithm**常用算法
-10.**Power-Data-Structure**常用数据结构
+5. **Power-MQ** 消息中间件组件
+6. **Power-Algorithm**  常用算法
+7. **Power-Data-Structure**  常用数据结构
 	
 ### 特色功能
 
