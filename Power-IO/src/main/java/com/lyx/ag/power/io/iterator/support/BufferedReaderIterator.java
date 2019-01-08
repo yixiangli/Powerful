@@ -17,9 +17,6 @@ import com.lyx.ag.power.utils.NPEUtils;
 /**
  * @developer liyixiang
  * @Info
- * * * @company leEco
- * * * @email <liyixiang@le.com>
- * * * @Team smartConnected
  * @date 2017年2月8日
  * @since JDK 1.7
  * @Function 字符流迭代器

@@ -9,7 +9,31 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>PowerCache</artifactId>
+    <artifactId>Power-Cache</artifactId>
 
+    <dependencies>
+        <!-- Guava Cache -->
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>23.0</version>
+        </dependency>
+        <!-- Ehcache 3.x -->
+        <dependency>
+            <groupId>org.ehcache</groupId>
+            <artifactId>ehcache</artifactId>
+            <version>3.3.0</version>
+        </dependency>
+        <!-- MapDB -->
+        <!--
+            最新地址
+            https://mvnrepository.com/artifact/org.mapdb/mapdb
+        -->
+        <dependency>
+            <groupId>org.mapdb</groupId>
+            <artifactId>mapdb</artifactId>
+            <version>3.0.7</version>
+        </dependency>
+    </dependencies>
 
 </project>

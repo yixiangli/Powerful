@@ -18,10 +18,6 @@ Powerful
 5. **Power-MQ** 消息中间件组件
 6. **Power-Algorithm**  常用算法
 7. **Power-Data-Structure**  常用数据结构
-	
-### 特色功能
-
-## Usage
 
 ## License
 	基于 Apache License 2.0 发布。有关详细信息，请参阅 [LICENSE](https://github.com/yixiangli/Powerful/blob/master/LICENSE)。

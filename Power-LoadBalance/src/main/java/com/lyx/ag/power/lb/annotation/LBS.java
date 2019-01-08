@@ -9,5 +9,5 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)		//这个必须要将注解保留在运行时
 public @interface LBS {
 
-	String name() default "Random";
+	String name() default "RoundRobin";
 }

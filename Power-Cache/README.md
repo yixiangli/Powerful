@@ -17,9 +17,13 @@ Power-Algorithm
 - 缓存回收算法
     - 堆缓存
         - Guava Cache
+        - Ehcache 3.x
+        - MapDB
     - 堆外缓存
         - Ehcache 3.x
+        - MapDB
     - 磁盘缓存
+        - Ehcache 3.x
         - MapDB
     - 分布式缓存
         - Redis

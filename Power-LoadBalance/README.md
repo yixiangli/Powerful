@@ -14,7 +14,8 @@ Power-LoadBalance
 
 ## Features
 ### 功能列表
-
+1.  随机策略
+2.  轮询策略
 
 ### Install
 

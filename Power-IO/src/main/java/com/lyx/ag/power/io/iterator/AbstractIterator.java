@@ -13,9 +13,6 @@ import java.util.Iterator;
  * @param <E>
  * @developer liyixiang
  * @Info
- * * * @company leEco
- * * * @email <liyixiang@le.com>
- * * * @Team smartConnected
  * @date 2017年2月8日
  * @since JDK 1.7
  * @Function 迭代器模式
