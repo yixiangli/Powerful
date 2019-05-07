@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/Power-IO/Power-IO.iml" filepath="$PROJECT_DIR$/Power-IO/Power-IO.iml" />
       <module fileurl="file://$PROJECT_DIR$/Power-LoadBalance/Power-LoadBalance.iml" filepath="$PROJECT_DIR$/Power-LoadBalance/Power-LoadBalance.iml" />
       <module fileurl="file://$PROJECT_DIR$/Power-MQ/Power-MQ.iml" filepath="$PROJECT_DIR$/Power-MQ/Power-MQ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Power-Thread/Power-Thread.iml" filepath="$PROJECT_DIR$/Power-Thread/Power-Thread.iml" />
       <module fileurl="file://$PROJECT_DIR$/Power-Utils/Power-Utils.iml" filepath="$PROJECT_DIR$/Power-Utils/Power-Utils.iml" />
       <module fileurl="file://$PROJECT_DIR$/Powerful.iml" filepath="$PROJECT_DIR$/Powerful.iml" />
     </modules>

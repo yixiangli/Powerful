@@ -27,6 +27,8 @@
 		<module>Power-Data-Structure</module>
         <!-- Cache -->
         <module>Power-Cache</module>
+        <!-- Thread -->
+        <module>Power-Thread</module>
   </modules>
   
   <url>http://maven.apache.org</url>

@@ -13,6 +13,7 @@
         <module name="Power-IO" />
         <module name="Power-LoadBalance" />
         <module name="Power-MQ" />
+        <module name="Power-Thread" />
         <module name="Power-Utils" />
       </profile>
     </annotationProcessing>
@@ -26,6 +27,7 @@
       <module name="Power-IO" target="1.5" />
       <module name="Power-LoadBalance" target="1.5" />
       <module name="Power-MQ" target="1.6" />
+      <module name="Power-Thread" target="1.8" />
       <module name="Power-Utils" target="1.5" />
       <module name="Powerful" target="1.5" />
     </bytecodeTargetLevel>
