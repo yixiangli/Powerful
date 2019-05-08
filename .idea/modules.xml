@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Power-Algorithm/Power-Algorithm.iml" filepath="$PROJECT_DIR$/Power-Algorithm/Power-Algorithm.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Power-Cache/Power-Cache.iml" filepath="$PROJECT_DIR$/Power-Cache/Power-Cache.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Power-Data-Exchange/Power-Data-Exchange.iml" filepath="$PROJECT_DIR$/Power-Data-Exchange/Power-Data-Exchange.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Power-Data-Structure/Power-Data-Structure.iml" filepath="$PROJECT_DIR$/Power-Data-Structure/Power-Data-Structure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Power-Collections/Power-Collections.iml" filepath="$PROJECT_DIR$/Power-Collections/Power-Collections.iml" />
       <module fileurl="file://$PROJECT_DIR$/Power-Dependency/Power-Dependency.iml" filepath="$PROJECT_DIR$/Power-Dependency/Power-Dependency.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Power-IO/Power-IO.iml" filepath="$PROJECT_DIR$/Power-IO/Power-IO.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Power-LoadBalance/Power-LoadBalance.iml" filepath="$PROJECT_DIR$/Power-LoadBalance/Power-LoadBalance.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Power-MQ/Power-MQ.iml" filepath="$PROJECT_DIR$/Power-MQ/Power-MQ.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Power-Thread/Power-Thread.iml" filepath="$PROJECT_DIR$/Power-Thread/Power-Thread.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Power-Utils/Power-Utils.iml" filepath="$PROJECT_DIR$/Power-Utils/Power-Utils.iml" />
       <module fileurl="file://$PROJECT_DIR$/Powerful.iml" filepath="$PROJECT_DIR$/Powerful.iml" />
     </modules>
   </component>

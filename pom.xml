@@ -11,24 +11,9 @@
   <modules>
   		<!-- jar依赖模块 -->
   		<module>Power-Dependency</module>
-  		<!-- 日常工具模块 -->
-  		<module>Power-Utils</module>
-  		<!-- io组件 -->
-		<module>Power-IO</module>
-		<!-- mq组件 -->
-		<module>Power-MQ</module>
-		<!-- 数据交换组件 -->
-		<module>Power-Data-Exchange</module>
-		<!-- 负载均衡组件 -->
-		<module>Power-LoadBalance</module>
-		<!-- 算法集合 -->
-		<module>Power-Algorithm</module>
-		<!-- 数据结构集合 -->
-		<module>Power-Data-Structure</module>
-        <!-- Cache -->
-        <module>Power-Cache</module>
-        <!-- Thread -->
-        <module>Power-Thread</module>
+  		<!-- 集合模块 -->
+  		<module>Power-Collections</module>
+
   </modules>
   
   <url>http://maven.apache.org</url>

@@ -1,25 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <annotationProcessing>
-      <profile name="Maven default annotation processors profile" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="Power-Algorithm" />
-        <module name="Power-Cache" />
-        <module name="Power-Data-Exchange" />
-        <module name="Power-Data-Structure" />
-        <module name="Power-IO" />
-        <module name="Power-LoadBalance" />
-        <module name="Power-MQ" />
-        <module name="Power-Thread" />
-        <module name="Power-Utils" />
-      </profile>
-    </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="Power-Algorithm" target="1.5" />
       <module name="Power-Cache" target="1.5" />
+      <module name="Power-Collections" target="1.5" />
       <module name="Power-Data-Exchange" target="1.5" />
       <module name="Power-Data-Structure" target="1.5" />
       <module name="Power-Dependency" target="1.5" />

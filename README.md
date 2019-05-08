@@ -11,13 +11,7 @@ Powerful
 
 ## Features
 ### 基本功能
-1. **Power-Data-Exchange**  数据交换组件
-2. **Power-IO**I/O 文件交互组件
-3. **Power-LoadBalance**    负载均衡组件
-4. **Power-Cache**  缓存操作组件
-5. **Power-MQ** 消息中间件组件
-6. **Power-Algorithm**  常用算法
-7. **Power-Data-Structure**  常用数据结构
+1. **Power-Collections** 集合组件
 
 ## License
 	基于 Apache License 2.0 发布。有关详细信息，请参阅 [LICENSE](https://github.com/yixiangli/Powerful/blob/master/LICENSE)。
@@ -28,15 +22,7 @@ Powerful
 
 
 ## Manifest
-	|- Power-Algorithm
-	|- Power-Cache
-	|- Power-Data-Exchange
-	|- Power-Data-Structure
-	|- Power-Dependency
-	|- Power-IO
-	|- Power-LoadBalance
-	|- Power-MQ
-	|- Power-Utils
+	|- Power-Collections
 	|- .gitignore
 	|- LICENSE
 	|- README.md
