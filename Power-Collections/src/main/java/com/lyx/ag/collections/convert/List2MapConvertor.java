@@ -1,5 +1,7 @@
 package com.lyx.ag.collections.convert;
 
+import lombok.Data;
+
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
@@ -14,8 +16,7 @@ import java.util.stream.Collectors;
 public class List2MapConvertor {
 
     public Map<Integer,DemoBean> list2map(List<DemoBean> list){
-        //Map<Integer, T> result = list.stream().collect(Collectors.toMap(T::getId, T::getName));
-        return null;
+        return list.stream().collect(Collectors.toMap(DemoBean::getId,DemoBean -> DemoBean));
     }
 }
 

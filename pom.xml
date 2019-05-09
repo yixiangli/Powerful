@@ -13,7 +13,6 @@
   		<module>Power-Dependency</module>
   		<!-- 集合模块 -->
   		<module>Power-Collections</module>
-
   </modules>
   
   <url>http://maven.apache.org</url>
