@@ -8,5 +8,14 @@
     <artifactId>Power-Collections</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
+    <dependencies>
+        <!-- dependency -->
+        <dependency>
+            <groupId>com.lyx.ag</groupId>
+            <artifactId>Power-Dependency</artifactId>
+            <version>1.0</version>
+        </dependency>
+
+    </dependencies>
 
 </project>
