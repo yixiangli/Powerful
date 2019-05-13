@@ -22,7 +22,6 @@ public class List2MapConvertor {
 
 @Data
 class DemoBean {
-
     private int id; //key
     private String name;
     private List<Integer> integerList;
